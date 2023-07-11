@@ -7,7 +7,7 @@ import DeletePost from './DeletePost'
 
 
 
-const HomePage= ({data,error })=>{
+const HomePage= ({data,error})=>{
 
 
     return(
@@ -20,7 +20,7 @@ const HomePage= ({data,error })=>{
                         <div key={response._id}>
                            
                              <p>{response.message}</p>
-                            <DeletePost postId={response._id}/>
+                            <DeletePost postId={response._id} />
                              
                         </div>
                         
